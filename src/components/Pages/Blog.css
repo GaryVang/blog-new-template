@@ -1,0 +1,56 @@
+.blog-container {
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    margin-top: 84px;
+}
+.bg-square {
+    height: 788px;
+    width: 1006px;
+    border: 1px solid #979797;
+    border-radius: 2px;
+    background-color: #FBFBFB;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    font-size: 24px;
+    /* line-height: 32px; */
+    font-weight: 500;
+}
+
+.blog-title {
+    margin: 48px 0 48px 0;
+}
+
+textarea {
+    width: 910px;
+    height: 524px;
+}
+
+.button-wrapper {
+    margin: 48px 0 48px 0;
+    display: flex;
+    align-self: flex-end;
+    margin-right: 53px;
+}
+
+.button-cancel, .button-submit {
+    height: 40px;
+    width: 174px;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans';
+}
+
+.button-cancel {
+    border: 1px solid #EFE5B5;
+    background-color: #FBFBFB; 
+    /* font-weight: 500; */
+    /* line-height: 18px; */
+}
+
+.button-submit {
+    background-color: #EFE5B5;
+    margin-left: 23px;
+}

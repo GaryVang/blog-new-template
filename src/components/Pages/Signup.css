@@ -1,0 +1,78 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 84px;
+}
+
+.bg-signup {
+    height: 434px;
+    width: 559px;
+    border: 1px solid #979797;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.signup-title {
+    margin: 48px 0 0 0;
+    font-size: 24px;
+    height: 32px;
+    width: 279px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+}
+
+.signup-label-username, .signup-label-password {
+    margin-top: 28px;
+    height: 18px;
+    width: 66px;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans';
+}
+
+.signup-label-password {
+    margin-top: 24px;
+    /* height: 18px; */
+    /* width: 66px; */
+    /* font-size: 14px; */
+}
+
+.signup-button {
+    margin-top: 28px;
+    margin-bottom: 48px;
+}
+
+.signup-text-signup {
+    height: 18px;
+    width: 201px;
+    font-size: 14px;
+}
+
+.signup-text-signup a {
+    color: red;
+}
+
+.signup-input-username, .signup-input-password {
+    height: 38px;
+    width: 491px;
+    border: 1px solid #727272;
+    border-radius: 2px;
+}
+
+.signup-button {
+    height: 40px;
+    width: 491px;
+    border-radius: 2px;
+    background-color: #EBE4C2;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans';
+}
+
+.username-wrapper, .password-wrapper{
+    display: flex;
+    flex-direction: column;
+}
