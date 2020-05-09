@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Link, browserHistory } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import {browserHistory} from 'react-router';
 import Header from './components/Header/Header.js';
 import Login from './components/Pages/Login';
 import Signup from './components/Pages/Signup';
