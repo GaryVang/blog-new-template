@@ -16,7 +16,7 @@ function App() {
         {/* <content className='content'>Welcome to G's Blog!</content> */}
         
         {/* <Route exact path='/' component={Home} /> */}
-        <Route exact path='/' component={Home} />
+        <Route exact path='https://blog-template-10.herokuapp.com/' component={Home} />
         <Route exact path='/blog' component={Blog} />
         <Route path='/login' component={Login} />
         <Route path='/signup' component={Signup} />
