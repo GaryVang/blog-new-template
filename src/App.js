@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import {browserHistory} from 'react-router';
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 import Header from './components/Header/Header.js';
 import Login from './components/Pages/Login';
 import Signup from './components/Pages/Signup';
@@ -10,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router history={browserHistory}>
+    <Router >
       <div className="w-blog">
         <Header className="header"></Header>
         {/* <content className='content'>Welcome to G's Blog!</content> */}
