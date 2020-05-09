@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <div className="w-blog">
-        {/* <Header className="header"></Header> */}
+        <Header className="header"></Header>
         {/* <content className='content'>Welcome to G's Blog!</content> */}
         
         {/* <Route exact path='/' component={Home} /> */}
