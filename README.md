@@ -1,4 +1,5 @@
 Hosted on Heroku [Click here for Website](https://blog-template-v.herokuapp.com/).
+*Please note that it takes a couple seconds for the site to wake up*
 
 ## Blog Template
 
