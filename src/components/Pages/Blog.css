@@ -7,6 +7,7 @@
 .bg-square {
     height: 788px;
     width: 1006px;
+    min-width: 500px;
     border: 1px solid #979797;
     border-radius: 2px;
     background-color: #FBFBFB;
@@ -24,8 +25,12 @@
 }
 
 textarea {
-    width: 910px;
+    /* width: 910px; */
     height: 524px;
+
+    width: 90%;
+    /* min-width: auto; */
+    
 }
 
 .button-wrapper {

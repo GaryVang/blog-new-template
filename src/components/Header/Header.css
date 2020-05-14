@@ -3,6 +3,10 @@ body {
     background-attachment: fixed;
 }
 
+.navbar-container {
+    /* overflow: scroll; */
+}
+
 .left-wrapper > ul {
     display: flex;
     padding-left: 20px;
@@ -49,6 +53,7 @@ li a {
     /* font-size: 14px; */
     width: 38px;
     height: 18px;
+    white-space: nowrap;
 }
 
 .signup a {
