@@ -1,4 +1,4 @@
-Hosted on Heroku [Click here for Website](https://ffbe-builder-v.herokuapp.com/).
+Hosted on Heroku [Click here for Website](https://blog-template-v.herokuapp.com/).
 
 ## Blog Template
 
